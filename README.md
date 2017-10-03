@@ -6,7 +6,9 @@
 
 Do you want to see the [progress](https://github.com/mohachouch/forms-wpf-progress) of the Xamarin.Forms WPF backend? 
 
-<img src="images/WPF.png" alt="WeatherApp" Width="400" />
+<p align="center">
+<img src="images/WPF.png" Width="400"/>
+</p>
 
 ## Xamarin.Forms App 
 
