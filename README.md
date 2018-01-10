@@ -32,10 +32,9 @@ Do you want to see the [progress](https://github.com/mohachouch/forms-wpf-progre
 
 **Download** or clone the repository. This is a solution with two projects.
 
-To test this project you must add this two Nuget sources in Visual Studio:
+To test this project you must add this Nuget source in Visual Studio:
 
-- **Xamarin.Forms WPF CI**: [https://ci.appveyor.com/nuget/xamarin-forms-wpf-ci](https://ci.appveyor.com/nuget/xamarin-forms-wpf-ci)
-- **WpfLightToolkit CI**: [https://ci.appveyor.com/nuget/wpflighttoolkit-ci](https://ci.appveyor.com/nuget/wpflighttoolkit-ci)
+- **Xamarin.Forms Nightly**: [https://www.myget.org/F/xamarinforms-ci/api/v2](https://www.myget.org/F/xamarinforms-ci/api/v2)
 
 **Rebuild** the solution to get all neccesary **NuGet** packages.
 
