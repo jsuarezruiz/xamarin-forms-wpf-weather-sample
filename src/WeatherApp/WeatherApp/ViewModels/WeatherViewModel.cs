@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using WeatherApp.Models;
@@ -75,9 +76,10 @@ namespace WeatherApp.ViewModels
                 Temp = $"{weatherRoot?.MainWeather?.Temperature ?? 0}°{unit}";
                 Condition = $"{weatherRoot.Name}: {weatherRoot?.Weather?[0]?.Description ?? string.Empty}";
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Temp = "Unable to get Weather";
+                Debug.WriteLine(ex.Message);
             }
             finally
             {
