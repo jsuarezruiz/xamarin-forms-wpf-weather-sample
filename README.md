@@ -32,13 +32,9 @@ Do you want to see the [progress](https://github.com/mohachouch/forms-wpf-progre
 
 **Download** or clone the repository. This is a solution with two projects.
 
-To test this project you must add this Nuget source in Visual Studio:
-
-- **Xamarin.Forms Nightly**: [https://www.myget.org/F/xamarinforms-ci/api/v2](https://www.myget.org/F/xamarinforms-ci/api/v2)
-
 **Rebuild** the solution to get all neccesary **NuGet** packages.
 
-Access to **AppSettings.cs** file available in the Portable Class Library to introduce city.
+Access to **AppSettings.cs** file available in the .NET Standard library to introduce your city.
 
 Enjoy!
 
